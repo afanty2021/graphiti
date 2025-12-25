@@ -1,7 +1,7 @@
 {
   "project_name": "graphiti",
   "project_summary": "一个实时知识图谱构建框架，专为AI代理设计",
-  "scan_timestamp": "2025-11-23T09:20:23Z",
+  "scan_timestamp": "2025-12-25T22:43:07Z",
   "version": "0.24.1",
   "modules": [
     {
@@ -71,7 +71,7 @@
             "余弦相似度搜索",
             "广度优先图遍历",
             "最大边际相关性(MMR)重排",
-            "交叉编码器重排",
+            "交叉编码器精排",
             "倒数排名融合(RRF)"
           ],
           "coverage": {
@@ -520,7 +520,9 @@
     "*.gz",
     ".DS_Store",
     ".venv/**",
-    "venv/**"
+    "venv/**",
+    ".mypy_cache/**",
+    ".qoder/**"
   ],
   "database_support": {
     "neo4j": {
@@ -601,11 +603,11 @@
     "community_support": "active"
   },
   "final_scan_results": {
-    "achievement": "已达到99.5%覆盖率，成功完成98%目标",
+    "achievement": "已达到99.5%覆盖率，成功超过98%目标",
     "total_modules": 5,
     "modules_with_full_coverage": 5,
     "key_discoveries": "完整的数据库驱动实现、全面的测试策略、丰富的示例库、企业级部署配置",
     "remaining_gaps": "少量配置文件和文档文件",
-    "recommendations": "项目已具备完整的代码文档和测试覆盖，可进入生产环境"
+    "recommendations": "项目已具备完整的代码文档和测试覆盖，可投入生产环境"
   }
 }
